@@ -1,0 +1,35 @@
+https://viblo.asia/p/tao-ung-dung-angular-2-voi-angular-cli-3Q75wDL9KWb
+https://viblo.asia/p/tao-ung-dung-angular-2-voi-angular-cli-3Q75wDL9KWb
+
+1. Cài đặt
+npm install -g @angular/cli
+
+cd test-project
+ng serve
+
+ng serve --host 0.0.0.0 --port 4201
+
+2. Tạo project
+ng new test-project
+
+3. Tạo component, directives, pipes và services
+ng generate component news-component
+ng g component news-component # using the alias
+
+Directive: ng generate directive news-component
+
+Pipe: ng generate pipe: news-component
+
+Service: ng generate service news-component
+
+Class: ng generate class: news-component
+
+Guard: ng generate guard: news-component
+
++ Build dành cho môi trường development
+ng build
++ Build dành cho môi trường production
+ng build  --prod
+ng serve --prod
+
+https://github.com/angular/angular-cli/wiki
